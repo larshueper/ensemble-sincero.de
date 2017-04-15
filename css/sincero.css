@@ -122,6 +122,7 @@ ul {
     #view {
         background-color: #fafafa;
         margin-top: 40px;
+        margin-bottom: 40px;
         padding-left: 0;
         padding-right: 0;
         min-height: 800px;

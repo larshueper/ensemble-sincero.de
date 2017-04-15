@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    background: #AED8E9;
+    font-size: 1.8em;
+    font-family: 'Helvetica Neue',sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Amatic SC';
+}
+
+#view {
+    background-color: #fafafa;
+    margin-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 800px;
+    /*box-shadow: 8px 8px 10px #555;*/
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.22);
+}
+
+#title {
+    box-shadow: 8px 8px 10px #aaa;
+}
+
+.head {
+    height: 220px;
+    text-align: center;
+}
+
+#logo {
+    background-image: url('../images/IMG_7329.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#claim {
+    overflow: hidden;
+}
+
+#menu {
+    text-align: center;
+    min-height: 580px;
+}
+
+#content {
+    padding: 0 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+h4 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#menu > h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 25px;
+}
+
+p {
+    text-align: left;
+}
+
+a, a:visited {
+    color: #008DC1;
+}
+
+a:hover {
+    color: #003B62;
+}
+
+h3 > a, a:visited, a:hover {
+    color: white;
+}
+
+.xtitle {
+    background-image: url('../images/ulrike.jpg');
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+#uk {
+    background-image: url('../images/ukg.jpg');
+    background-size: cover;
+    background-position: left 5px;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+#claim > h1,h4 {
+    color: white;
+}
+
+.blue {
+    background: #00A1D2;
+}
+
+.darkblue {
+    background: #008DC1;
+}
+
+.lightblue {
+    background-color: #AED8E9;
+}
+
+.gray {
+    background: #A2AEB2;
+}
+
+.purple {
+    background: #8614A6;
+}
+
+.centered {
+    text-align: center;
+}
+

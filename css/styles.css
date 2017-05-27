@@ -14,6 +14,10 @@ h1,h2,h3,h4 {
     font-weight: normal;
 }
 
+ul {
+    text-align: left;
+}
+
 #view {
     background-color: #fafafa;
     margin-top: 40px;
@@ -90,7 +94,7 @@ a:hover {
     color: #003B62;
 }
 
-h3 > a, a:visited, a:hover {
+h3 > a, h3 > a:visited, h3 > a:hover {
     color: white;
 }
 
@@ -170,5 +174,18 @@ nav {
 
     span.icon-bar, span.icon-bar:focus {
         background-color: white !important;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    h4 {
+        font-size: 25px;
     }
 }
